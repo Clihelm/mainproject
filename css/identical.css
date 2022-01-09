@@ -345,7 +345,7 @@ a {
 .order-img {
     position: absolute;
     top: -260px;
-    right: -430px;
+    right: -380px;
 }
 
 .name-place {
@@ -591,9 +591,6 @@ a {
 @media (max-width: 768px) {
     .footer-box {
         flex-wrap: wrap;
-    }
-    .last-box-centr-part {
-        
     }
     .last-box {
         position: relative;
