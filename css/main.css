@@ -599,9 +599,18 @@
 }
 
 @media (max-width: 768px) {
+    .main-info-1 {
+        width: 530px;
+        margin-left: 0px;
+    }
     .main-title-1 {
         width: 500px;
         font-size: 30px;
+        text-align: center;
+    }
+    .main-text-1 {
+        width: 500px;
+        text-align: center;
     }
     .dignity-all {
         flex-wrap: wrap;
@@ -624,5 +633,47 @@
 
     .reviews-box {
         width: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-title-1 {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .main-info-1 {
+        width: 100%;
+    }
+    .main-text-1 {
+        width: 100%;
+    }
+    .visa-wrap {
+        width: 100%;
+    }
+    .slider-2-left-btn {
+        display: none;
+    }
+    .slider-2-right-btn {
+        display: none;
+    }
+    .slider-2-content{
+        width: 80%;
+    }
+    .reviews-box {
+        width: 90%;
+    }
+    .dignity {
+        display: none;
+    }
+    .section-2-text {
+        font-size: 20px;
+        width: 100%;
+        line-height: 20px;
+    }
+
+    .main-title-2 {
+        width: 100%;
     }
 }

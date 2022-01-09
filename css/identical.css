@@ -101,6 +101,12 @@ a {
     }
 }
 
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
+
 
 /* Стили ХЭДЕРА */
 
@@ -269,6 +275,30 @@ a {
 
 }
 
+@media (max-width: 576px) {
+    .adr-time {
+        display: none;
+    }
+    .phone {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header-nav {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .header-nav-search {
+        display: none;
+    }
+    .search-btn {
+        display: none;
+    }
+}
+
 
 
 /* Стили меню заказа */
@@ -397,7 +427,7 @@ a {
     }
 
     .order-img {
-        left: 550px;
+        left: 540px;
         top: -150px;
     }
 }
@@ -417,11 +447,12 @@ a {
     }
     .order-title {
         margin-left: 20px;
+        width: 90%;
     }
     .order-img {
         width: 300px;
         height: 300px;
-        left: 270px;
+        left: 260px;
         top: -70px;
     }
     .order-name-img {
@@ -430,6 +461,28 @@ a {
     .order-phone-img {
         left: 24px;
         top: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    .order-img {
+        display: none;
+    }
+
+    .order-space {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .order-title {
+        width: 80%;
+        text-align: right;
+    }
+    .order-name {
+        width: 85%;
+    }
+    .order-phone {
+        width: 85%;
     }
 }
 
@@ -607,5 +660,23 @@ a {
     }
     .last-box-btn-up {
         display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .last-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .last-box-centr-part {
+        position: static;
+    }
+    .last-box-right-part {
+        position: static;
+    }
+    .last-box-copyr {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
