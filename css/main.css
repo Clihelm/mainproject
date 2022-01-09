@@ -1,0 +1,628 @@
+.adr-text {
+    color: white;
+}
+
+.clock-text {
+    color: white;
+}
+
+.num-phone {
+    color: white;
+}
+
+.main-head {
+    background: url('../img/main page/backmain.png');
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.main-title-1 {
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 570px;
+    margin-top: 130px;
+}
+
+.main-text-1 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 570px;
+    margin-top: 35px;
+}
+
+.main-btn-1 {
+    margin-top: 30px;
+    background: #FCFF60;
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 243px;
+    height: 54px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+}
+
+.main-btn-1:hover {
+    background: #fbff00;
+    cursor: pointer;
+}
+
+.main-title-2 {
+    margin-top: 300px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main-slider-box {
+    margin-top: 17px;
+    margin-bottom: 90px;
+    width: 294.34px;
+    height: 321.09px;
+    left: 1078px;
+    top: 535px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider-1-slide-1 {
+    display: none;
+}
+
+.slider-1-title-1 {
+    padding-top: 13px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+}
+
+.slider-img-space {
+    width: 245px;
+    height: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+}
+
+.slider-img-space-1 {
+    background: url('../img/main page/slider1/slider Litva.jpg');
+    background-size: cover;
+}
+
+.slider-img-space-2 {
+    background: url('../img/main page/slider1/lider Italy.jpg');
+    background-size: cover;
+}
+
+.slider-img-space-3 {
+    background: url('../img/main page/slider1/slider France.jpg');
+    background-size: cover;
+}
+
+.slider-img-space-4 {
+    background: url('../img/main page/slider1/slider China.jpg');
+    background-size: cover ;
+}
+
+.slider-text-1 {
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.slider-btns-1 {
+    justify-content: space-around;
+    margin-top: 17px;
+}
+
+.slider-price-1 {
+    background: #CFCFCF;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.slider-btn-1 {
+    background: #84E439;
+    border: none;
+}
+
+.slider-btn-1:hover {
+    background: #6fff00;
+    cursor: pointer;
+}
+
+.slider-btn-space {
+    width: 69px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.slider-circle-btn {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: none;
+    margin-top: -80px;
+}
+
+.slider-circle-btn.active {
+    background: #84E439;
+}
+
+.slider-circle-btn:hover {
+    cursor: pointer;
+    background: #ffe600;
+}
+
+
+
+.slider-1-slide-1.active {
+    display: block;
+}
+
+.section-1 {
+    padding-top: 135px;
+    padding-bottom: 40px;
+    background: url('../img/main page/back right top.png') no-repeat top -500px right -10px, url('../img/main page/back left bottom.png') no-repeat left -60px bottom -480px, #E5E5E5;;
+}
+
+.dignity {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+.dignity-title-main {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.dignity-confidently-img {
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+}
+
+.dignity-mini-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+}
+
+.dignity-text {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.section-2 {
+    background: url('../img/main page/section-2.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding-top: 120px;
+    padding-bottom: 75px;
+}
+
+.section-2-text {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.section-3 {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.visa-wrap {
+    flex-wrap: wrap;
+}
+
+.section-3-visa-box {
+    height: 350px;
+    width: 270px;
+    box-shadow: 3px 5px 10px 6px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+
+.section-3-visa-box-img-1 {
+    width: 270px;
+    height: 310px;
+    background: url('../img/main page/visa litva.jpg');
+}
+
+.section-3-visa-box-img-2 {
+    width: 270px;
+    height: 310px;
+    background: url('../img/main page/visa poland.jpg');
+}
+
+.section-3-visa-box-img-3 {
+    width: 270px;
+    height: 310px;
+    background: url('../img/main page/visa\ spain.jpg');
+}
+
+.section-3-visa-box-img-4 {
+    width: 270px;
+    height: 310px;
+    background: url('../img/main page/visa Czech.jpg');
+}
+
+.section-3-visa-box-img-5 {
+    width: 270px;
+    height: 310px;
+    background: url('../img/main page/visa bolgar.jpg');
+}
+
+.section-3-visa-box-img-6 {
+    width: 270px;
+    height: 310px;
+    background: url('../img/main page/visa Vengr.jpg');
+}
+
+.section-3-visa-box-img-7 {
+    width: 270px;
+    height: 310px;
+    background: url('../img/main page/visa France.jpg');
+}
+
+.section-3-visa-box-img-8 {
+    width: 270px;
+    height: 310px;
+    background: url('../img/main page/visa England.jpg');
+}
+
+.section-3-prices {
+    width: 100%;
+}
+
+.section-3-visa-btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #84E439;
+}
+
+.section-3-visa-prise-1 {
+    color: red;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 7px;
+    text-decoration: line-through;
+}
+
+.section-3-visa-prise-2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 48px;
+}
+
+.section-4 {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    background: url('../img/main page/street.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.section-4-title {
+    color: white;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.section-5 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url('../img/main page/back right top.png') no-repeat top -500px right -10px, url('../img/main page/back left bottom.png') no-repeat left -60px bottom -480px, #E5E5E5;;
+
+}
+
+.reviews-box {
+    margin-left: auto;
+    margin-right: auto ;
+    width: 640px;
+    height: 350px;
+    background: white;
+    box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.25);
+}
+
+.reviews-btn {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 270px;
+    height: 56px;
+    background: #F2994A;
+    border: none;
+    box-shadow: 0px 0px 20px #F2994A;
+}
+
+.slider-2-circle-btns {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider-2-left-btn {
+    height: 350px;
+    width: 80px;
+    border: none;
+    background: white;
+}
+
+.slider-2-left-btn:hover {
+    cursor: pointer;
+    background: rgba(185, 184, 184, 0.507);
+}
+
+.slider-2-right-btn {
+    height: 350px;
+    width: 80px;
+    border: none;
+    background: white;
+}
+
+.slider-2-right-btn:hover {
+    cursor: pointer;
+    background: rgba(185, 184, 184, 0.507);
+}
+
+.slider-2-photo-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.slider-2-name {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.slider-2-coment {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 50px;
+    height: 50px;
+}
+
+.slider-2-main-conent {
+    display: none;
+}
+
+.slider-2-main-conent.active {
+    display: block;
+}
+
+.slider-2-photo-box-1 {
+    background:url('../img/main page/slider-girl 1.jpg') ;
+}
+
+.slider-2-photo-box-2 {
+    background:url('../img/main page/slider-2 girl.jpg') ;
+    background-position: center top;
+    background-size: cover;
+}
+
+.slider-2-photo-box-3 {
+    background:url('../img/main page/slider-girl 3.jpg') ;
+    background-position: center top;
+    background-size: cover;
+}
+
+.slider-2-photo-box-4 {
+    background:url('../img/main page/slider-boy 4.jpg') ;
+    background-position: center top;
+    background-size: cover;
+}
+
+.slider-2-photo-box-5 {
+    background:url('../img/main page/slider-girl 5.jpg') ;
+    background-position: center top;
+    background-size: cover;
+}
+
+.slider-2-photo-box-6 {
+    background:url('../img/main page/slider-boy 6.jpg') ;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider-2-photo-box-7 {
+    background:url('../img/main page/slider-boy 7.jpg') ;
+    background-position: center top;
+    background-size: cover;
+}
+
+.slider-2-photo-box-8 {
+    background:url('../img/main page/slider-girl 8.jpg') ;
+    background-position: center top;
+    background-size: cover;
+}
+
+.slider-circle-btn-2 {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: none;
+    margin-top: -80px;
+}
+
+.slider-circle-btn-2.active {
+    background: #84E439;
+}
+
+.slider-circle-btn-2:hover {
+    cursor: pointer;
+    background: #ffe600;
+}
+
+@media (max-width: 992px) {
+    .info-win-main {
+        flex-direction: column;
+    }
+
+    .main-title-1 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    .main-text-1 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-info-1 {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-btn-1 {
+        margin-left: 50%;
+	    transform: translateX(-50%);
+    }
+    .main-title-2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .section-2-text {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-title-1 {
+        width: 500px;
+        font-size: 30px;
+    }
+    .dignity-all {
+        flex-wrap: wrap;
+    }
+    .dignity {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .visa-wrap {
+        width: 500px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-3-visa-box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .reviews-box {
+        width: 500px;
+    }
+}

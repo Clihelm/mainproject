@@ -1,0 +1,614 @@
+/* Основные стили */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-start {
+    display: flex;
+    justify-content: start;
+}
+
+.spar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 1140px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+
+
+/* Стили ХЭДЕРА */
+
+.header {
+    padding-top: 20px;
+}
+
+.logo {
+    width: 212px;
+    height: 67px; 
+}
+
+.location-1 {
+    padding-bottom: 25px;
+}
+
+.adr-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    width: 175px;
+    margin-left: 20px;
+}
+
+.clock-1 {
+    margin-bottom: 30px;
+}
+
+.clock-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: black;
+    margin-left: 20px;
+    top: 80px;
+    vertical-align: middle;
+}
+
+.phone-1 {
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 25px;
+}
+
+.num-phone {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin-top: 15px;
+}
+
+.header-nav {
+    max-width: 100%;
+    box-shadow: 0px 3px 10px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    padding: 10px 35px 10px 50px;
+    background: white;
+}
+
+.menu-ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header-nav-li {
+    display: inline;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.header-nav-li:hover {
+    text-decoration: underline;
+}
+
+.header-nav-li.active {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.head-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav-search-block {
+    position: relative;
+}
+
+.header-nav-search {
+    background: rgba(207, 207, 207, 0.34);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 4px 45px 4px 12px;
+    width: 195px;
+}
+
+.search-btn {
+    position: absolute;
+    top: 57%;
+    right: 2%;
+    transform: translate(0, -50%);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .adr-time {
+        margin-left: 80px;
+    }
+    .phone-1 {
+        margin-left: 10px;
+    }
+    .num-phone {
+        font-size: 14px;
+    }
+    .header-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search-btn {
+        top: 34%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-info {
+        flex-direction: column;
+    }
+    .phone {
+        margin-left: 70px;
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+    .phone-1 {
+        margin-top: 30px;
+    }
+    .header-nav-search {
+        margin-top: 20px;
+    }
+    .search-btn {
+        top: 53%;
+    }
+
+}
+
+
+
+/* Стили меню заказа */
+
+.order-space {
+    background: #345F87;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.order-title {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 570px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+
+
+.order-name {
+    background:white;
+    width: 170px;
+    height: 40px;
+    padding-left: 30px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.order-phone {
+    margin-left: 30px;
+    width: 240px;
+    padding-left: 30px;
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.order-btn {
+    margin-left: 30px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    background: #F2994A;
+    box-shadow: 0px 0px 20px #F2994A;
+}
+
+.order-box {
+    position: relative;
+}
+
+.order-img {
+    position: absolute;
+    top: -260px;
+    right: -430px;
+}
+
+.name-place {
+    position: relative;
+    left: 200px;
+}
+
+.order-name-img {
+    position: absolute;
+    right: 683px;
+    top: 8px;
+}
+
+.order-phone-img {
+    position: absolute;
+    right: 450px;
+    top: 8px;
+}
+
+@media (max-width: 1200px) {
+    .dignities-form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .order-name {
+        margin-bottom: 20px;
+        width: 240px;
+        margin-left: 0px;
+    }
+
+    .order-name-img {
+        left: 104px;
+    }
+
+    .order-phone {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .order-phone-img {
+        left: 104px;
+        top: 70px;
+    }
+
+    .order-btn {
+        margin-left: 0px;
+    }
+
+    .order-img {
+        left: 550px;
+        top: -150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .order-img {
+        width: 350;
+        height: 350px;
+        left: 380px;
+        top: -100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dignities-form {
+        margin-left: 20px;
+    }
+    .order-title {
+        margin-left: 20px;
+    }
+    .order-img {
+        width: 300px;
+        height: 300px;
+        left: 270px;
+        top: -70px;
+    }
+    .order-name-img {
+        left: 24px;
+    }
+    .order-phone-img {
+        left: 24px;
+        top: 70px;
+    }
+}
+
+/* Футер */
+
+.footer-nav {
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #FCFF60;
+}
+
+.footer-nav-li {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.185em;
+    text-align: left;
+
+} 
+
+.footer-nav-li.active {
+    font-weight: 700;
+}
+
+.footer-nav-li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.last-box {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background: url('../img/main page/bottom.jpg');
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.last-box-left-part {
+    margin-left: 25px;
+}
+
+.last-box-phone-num {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.last-box-phone-img {
+    margin-top: -10px;
+}
+
+
+
+.last-box-work-time {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.last-box-navig-img {
+    margin-top: 20px;
+}
+
+.last-box-adr {
+    width: 175px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.last-box-email {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.last-box-centr-part {
+    margin-top: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.last-box-social-img {
+    width: 40px;
+    height: 40px;
+}
+
+.last-box-insta-img {
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+}
+
+.last-box-social {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.last-box-copyr {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    width: 270px;
+}
+
+.last-box-right-part {
+    margin-right: 20px;
+}
+
+.last-box-btn-up {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    background: white;
+    border-radius: 15px;
+    margin-left: 220px;
+}
+
+@media (max-width: 768px) {
+    .footer-box {
+        flex-wrap: wrap;
+    }
+    .last-box-centr-part {
+        
+    }
+    .last-box {
+        position: relative;
+    }
+    .last-box-centr-part {
+        position: absolute;
+        top: 100px;
+        left: 300px;
+    }
+    .last-box-right-part {
+        position: absolute;
+        top: 60px;
+        left: 270px;
+    }
+    .last-box-btn-up {
+        display: none;
+    }
+}
